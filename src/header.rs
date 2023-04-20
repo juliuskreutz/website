@@ -66,9 +66,6 @@ impl Component for Header {
                     <div class="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
                         <a href="#about">
                             <Icon class="animate-bounce w-12 h-14" icon_id={IconId::FontAwesomeSolidCircleArrowDown}/>
-                            // <div class="w-[35px] h-[64px] rounded-3xl border-4 border-text flex justify-center items-start p-2">
-                            //     <div class="animate-bounce w-3 h-3 rounded-full bg-text mb-1" style="transform: translateY(25px) translateZ(0px);"></div>
-                            // </div>
                         </a>
                     </div>
                 </section>
