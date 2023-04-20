@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 yew = { version = "0.20.0", features = ["csr"] }
+yew_icons = { version = "0.7.1", features = ["FontAwesomeSolidSun", "FontAwesomeSolidMoon"] }
