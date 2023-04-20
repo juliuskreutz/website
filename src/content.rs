@@ -13,7 +13,7 @@ impl Component for Content {
 
     fn view(&self, _: &Context<Self>) -> Html {
         html! {
-            <main class="h-96 bg-mantle">
+            <main class="h-96 bg-base">
             </main>
         }
     }

@@ -16,7 +16,7 @@ impl Component for App {
     type Properties = ();
 
     fn create(_: &Context<Self>) -> Self {
-        Self { dark: false }
+        Self { dark: true }
     }
 
     fn view(&self, ctx: &Context<Self>) -> Html {
@@ -24,7 +24,7 @@ impl Component for App {
         let dark = self.dark;
 
         html! {
-            <div class={classes!("h-full", if dark { "macchiato" } else { "latte" })}>
+            <div class={classes!("h-full", "text-text", if dark { "macchiato" } else { "latte" })}>
                 <Header {theme_toggle} {dark}/>
                 <Content/>
             </div>
