@@ -37,17 +37,10 @@ pub fn Overview() -> Html {
                         </div>
                     </div>
                 </div>
-                <div class="sm:w-[250px] w-full group" data-tilt-scale={"1.1"} data-tilt={""}>
+                <div class="sm:w-[250px] w-full group text-blue" data-tilt-scale={"1.1"} data-tilt={""}>
                     <div class="w-full bg-gradient-to-tr from-green to-mauve p-[1px] rounded-[20px]">
                         <div class="bg-surface0 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-
-
-                            <svg class="w-16 h-16" viewBox="0 0 128 128">
-                            <path class="fill-text group-hover:fill-sky" d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z"></path><path class="fill-text group-hover:fill-blue" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z"></path><path class="fill-surface0" d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6z"></path>
-                            </svg>
-
-
-                            // <svg class="w-16 h-16 object-contain text-subtext0 group-hover:text-blue" viewBox="0 0 128 128"><path fill="currentColor" d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c.1-.8 0-1.7-.4-2.6zM64 88.5c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8-21.8 0-39.5-17.7-39.5-39.5S42.2 24.5 64 24.5c14.7 0 27.5 8.1 34.3 20l-13 7.5C81.1 44.5 73.1 39.5 64 39.5c-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5z"></path></svg>
+                            <svg class="w-16 h-16" viewBox="0 0 128 128"><path class="fill-text group-hover:fill-sky" d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z"></path><path class="fill-text group-hover:fill-blue" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z"></path><path class="fill-surface0" d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6z"></path></svg>
                             <h3 class="text-[20px] font-bold text-center">{"C"}</h3>
                         </div>
                     </div>
@@ -55,7 +48,7 @@ pub fn Overview() -> Html {
                 <div class="sm:w-[250px] w-full group" data-tilt-scale={"1.1"} data-tilt={""}>
                     <div class="w-full bg-gradient-to-tr from-green to-mauve p-[1px] rounded-[20px]">
                         <div class="bg-surface0 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-                            <svg class="w-16 h-16 object-contain text-subtext0 group-hover:text-mauve" viewBox="0 0 128 128"><path fill="currentColor" d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c.1-.8 0-1.7-.4-2.6zm-53.5 70c-21.8 0-39.5-17.7-39.5-39.5S42.2 24.5 64 24.5c14.7 0 27.5 8.1 34.3 20l-13 7.5C81.1 44.5 73.1 39.5 64 39.5c-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8zM115 62h-3.2l-.9 4h4.1v5h-5l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6H94v-5h3.5l.9-4H94v-5h5.3l1.2-6h4.9l-1.2 6h3.8l1.2-6h4.8l-1.2 6h2.2v5zm-12.7 4h3.8l.9-4h-3.8z"></path></svg>
+                            <svg class="w-16 h-16" viewBox="0 0 128 128"><path class="fill-text group-hover:fill-pink" d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z"></path><path class="fill-text group-hover:fill-mauve" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z"></path><path class="fill-surface0" d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6zM97 66.2l.9-4.3h-4.2v-4.7h5.1L100 51h4.9l-1.2 6.1h3.8l1.2-6.1h4.8l-1.2 6.1h2.4v4.7h-3.3l-.9 4.3h4.2v4.7h-5.1l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6h-2.4v-4.7H97zm4.8 0h3.8l.9-4.3h-3.8l-.9 4.3z"></path></svg>
                             <h3 class="text-[20px] font-bold text-center">{"C#"}</h3>
                         </div>
                     </div>
@@ -63,7 +56,12 @@ pub fn Overview() -> Html {
                 <div class="sm:w-[250px] w-full group" data-tilt-scale={"1.1"} data-tilt={""}>
                     <div class="w-full bg-gradient-to-tr from-green to-mauve p-[1px] rounded-[20px]">
                         <div class="bg-surface0 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-                            <svg class="w-16 h-16 object-contain text-subtext0 group-hover:text-blue" viewBox="0 0 128 128"><path fill="currentColor" d="M0 110.2L30.1 65 0 19.9h22.6L52.7 65l-30.1 45.1H0z"></path><path fill="currentColor" d="M30.1 110.2L60.2 65 30.1 19.9h22.6l60.2 90.3H90.4L71.5 81.9l-18.8 28.2H30.1zM102.9 83.8l-10-15.1H128v15.1h-25.1zM87.8 61.3l-10-15.1H128v15.1H87.8z"></path></svg>
+
+                            <svg class="w-16 h-16" viewBox="0 0 128 128">
+                            <path class="fill-text group-hover:fill-mauve" d="M0 110.2L30.1 65 0 19.9h22.6L52.7 65l-30.1 45.1H0z"></path><path class="fill-text group-hover:fill-lavender" d="M30.1 110.2L60.2 65 30.1 19.9h22.6l60.2 90.3H90.4L71.5 81.9l-18.8 28.2H30.1z"></path><path class="fill-text group-hover:fill-pink" d="M102.9 83.8l-10-15.1H128v15.1h-25.1zM87.8 61.3l-10-15.1H128v15.1H87.8z"></path>
+                            </svg>
+
+                            // <svg class="w-16 h-16 object-contain text-subtext0 group-hover:text-blue" viewBox="0 0 128 128"><path fill="currentColor" d="M0 110.2L30.1 65 0 19.9h22.6L52.7 65l-30.1 45.1H0z"></path><path fill="currentColor" d="M30.1 110.2L60.2 65 30.1 19.9h22.6l60.2 90.3H90.4L71.5 81.9l-18.8 28.2H30.1zM102.9 83.8l-10-15.1H128v15.1h-25.1zM87.8 61.3l-10-15.1H128v15.1H87.8z"></path></svg>
                             <h3 class="text-[20px] font-bold text-center">{"Haskell"}</h3>
                         </div>
                     </div>
