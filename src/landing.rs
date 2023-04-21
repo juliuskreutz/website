@@ -14,7 +14,7 @@ pub fn Landing() -> Html {
                         {"Hi, I'm "}<span class="text-mauve">{"Julius"}</span>
                     </h1>
                     <p class="font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2">
-                        {"I develop a variaty of applications with"}<br class="sm:block hidden"/>{" focus on a performant and safe backend"}
+                        {"I develop a variety of applications with"}<br class="sm:block hidden"/>{" focus on a performant and safe backend"}
                     </p>
                 </div>
             </div>
