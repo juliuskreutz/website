@@ -1,10 +1,12 @@
 use yew::prelude::*;
 
-mod content;
-mod header;
+mod landing;
+mod nav;
+mod overview;
 
-use content::*;
-use header::*;
+use landing::*;
+use nav::*;
+use overview::*;
 
 struct App {
     dark: bool,
@@ -24,9 +26,12 @@ impl Component for App {
         let dark = self.dark;
 
         html! {
-            <div class={classes!("h-full", "text-text", if dark { "macchiato" } else { "latte" })}>
-                <Header {theme_toggle} {dark}/>
-                <Content/>
+            <div class={classes!("h-full", "bg-base", "text-text", if dark { "macchiato" } else { "latte" })}>
+                <Navbar {theme_toggle} {dark}/>
+                <Landing/>
+                <Overview/>
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" integrity="sha512-RX/OFugt/bkgwRQg4B22KYE79dQhwaPp2IZaA/YyU3GMo/qY7GrXkiG6Dvvwnds6/DefCfwPTgCXnaC6nAgVYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             </div>
         }
     }
