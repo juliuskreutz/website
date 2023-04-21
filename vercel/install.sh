@@ -5,7 +5,7 @@ curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/t
 chmod +x tailwindcss-linux-x64
 mv tailwindcss-linux-x64 tailwindcss
 
-curl https://sh.rustup.rs -sSf | sh -s -- -y
+curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain nightly
 PATH=$PATH:/vercel/.cargo/bin
 
 rustup target add wasm32-unknown-unknown
