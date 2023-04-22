@@ -3,10 +3,14 @@ use yew::prelude::*;
 mod landing;
 mod nav;
 mod overview;
+mod projects;
+mod work;
 
 use landing::*;
 use nav::*;
 use overview::*;
+use projects::*;
+use work::*;
 
 struct App {
     dark: bool,
@@ -30,6 +34,8 @@ impl Component for App {
                 <Navbar {theme_toggle} {dark}/>
                 <Landing/>
                 <Overview/>
+                <Projects/>
+                <Work/>
 
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" integrity="sha512-RX/OFugt/bkgwRQg4B22KYE79dQhwaPp2IZaA/YyU3GMo/qY7GrXkiG6Dvvwnds6/DefCfwPTgCXnaC6nAgVYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             </div>
