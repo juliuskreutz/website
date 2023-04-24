@@ -52,7 +52,7 @@ pub fn Projects() -> Html {
             </p>
             <div class="mt-20 flex flex-wrap gap-7">
                 <ProjectCard
-                    image="website.png"
+                    image="website.webp"
                     title="This website"
                     description="The website you are seeing right now."
                     link="https://github.com/juliuskreutz/website"
@@ -62,7 +62,7 @@ pub fn Projects() -> Html {
                     <Tag text="#yew" color="text-green"/>
                 </ProjectCard>
                 <ProjectCard
-                    image="rwm.png"
+                    image="rwm.webp"
                     title="Rwm"
                     description="A small rust window manager."
                     link="https://github.com/juliuskreutz/rwm"
@@ -72,7 +72,7 @@ pub fn Projects() -> Html {
                     <Tag text="#xcb" color="text-teal"/>
                 </ProjectCard>
                 <ProjectCard
-                    image="mandelbrot.png"
+                    image="mandelbrot.webp"
                     title="Mandelbrot"
                     description="A mandelbrot shader that runs on the gpu."
                     link="https://github.com/juliuskreutz/mandelbrot"
@@ -82,7 +82,7 @@ pub fn Projects() -> Html {
                     <Tag text="#shader" color="text-red"/>
                 </ProjectCard>
                 <ProjectCard
-                    image="ar.png"
+                    image="ar.webp"
                     title="ARMarineExperience"
                     description="An ar experience for the marine reasearch exhibition of the german museum."
                     link="https://github.com/museum4punkt0/AR-Erlebniswelt-Meeresforschung-Demo"
@@ -92,17 +92,17 @@ pub fn Projects() -> Html {
                     <Tag text="#mobile" color="text-yellow"/>
                 </ProjectCard>
                 <ProjectCard
-                    image="smssender.png"
+                    image="smssender.webp"
                     title="Smssender"
                     description="A utility application, that allows you to send a sms to multiple groups at once controlled from your computer."
-                    link="https://github.com/juliuskreutz/mandelbrot"
+                    link="https://github.com/juliuskreutz/smssender"
                 >
                     <Tag text="#java" color="text-blue"/>
                     <Tag text="#android" color="text-green"/>
                     <Tag text="#mobile" color="text-yellow"/>
                 </ProjectCard>
                 <ProjectCard
-                    image="snake.png"
+                    image="snake.webp"
                     title="SnakeOs"
                     description="A bootloader, whose sole purpose is to play snake."
                     link="https://github.com/juliuskreutz/snake_os"
