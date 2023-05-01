@@ -14,19 +14,18 @@ struct ProjectCardProps {
 #[function_component]
 fn ProjectCard(props: &ProjectCardProps) -> Html {
     html! {
-
-                <a class="bg-surface0 p-5 rounded-2xl sm:w-[360px] w-full" href={props.link.clone()} target="_blank" data-tilt-scale={"1.1"} data-tilt={""}>
-                    <div class="relative w-full h-[230px]">
-                        <img src={format!("static/{}", props.image)} alt={props.title.clone()} class="w-full h-full object-cover rounded-2xl"/>
-                    </div>
-                    <div class="mt-5">
-                        <h3 class="font-bold text-[24px]">{props.title.clone()}</h3>
-                        <p class="mt-2 text-[14px]">{props.description.clone()}</p>
-                    </div>
-                    <div class="mt-4 flex flex-wrap gap-2">
-                        {props.children.clone()}
-                    </div>
-                </a>
+        <a class="bg-surface0 p-5 rounded-2xl sm:w-[360px] w-full" href={props.link.clone()} target="_blank" data-tilt={""}>
+            <div class="relative w-full h-[230px]">
+                <img src={format!("static/{}", props.image)} alt={props.title.clone()} class="w-full h-full object-cover rounded-2xl"/>
+            </div>
+            <div class="mt-5">
+                <h3 class="font-bold text-[24px]">{props.title.clone()}</h3>
+                <p class="mt-2 text-[14px]">{props.description.clone()}</p>
+            </div>
+            <div class="mt-4 flex flex-wrap gap-2">
+                {props.children.clone()}
+            </div>
+        </a>
     }
 }
 
