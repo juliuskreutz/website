@@ -10,10 +10,10 @@ pub fn Landing() -> Html {
                     <div class="w-1 sm:h-80 h-40 bg-gradient-to-b from-mauve"></div>
                 </div>
                 <div>
-                    <h1 class="font-black lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2">
+                    <h1 class="font-black lg:text-[80px] sm:text-[60px] text-[40px] lg:leading-[98px] mt-2">
                         {"Hi, I'm "}<span class="text-mauve">{"Julius"}</span>
                     </h1>
-                    <p class="font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2">
+                    <p class="font-medium lg:text-[30px] sm:text-[26px] text-[16px] lg:leading-[40px] mt-2">
                         {"I develop a variety of applications with"}<br class="sm:block hidden"/>{" focus on a performant and safe backend"}
                     </p>
                 </div>
