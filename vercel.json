@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { 
+      "source": "/paypal",
+      "destination": "https://paypal.me/juliuskreutz", 
+      "permanent": true
+    }
+  ]
+}
