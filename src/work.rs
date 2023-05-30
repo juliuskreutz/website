@@ -64,6 +64,26 @@ pub fn Work() -> Html {
                         <Point text="Implementing responsive design and ensuring cross device compatibility."/>
                     </WorkCard>
                     <WorkCard
+                    title="Tutor"
+                    sub_title="Technical University of Munich"
+                    icon="tum.png"
+                    duration="Oktober 2019 - March 2022"
+                    >
+                        <Point text="Holding lectures in the following subjects: Programming, Algorithm and Datastructures, Basic Maths and IT Security."/>
+                        <Point text="Preparing exercises related to the current topic for the students."/>
+                        <Point text="Examining homework and final exams."/>
+                    </WorkCard>
+                    <WorkCard
+                    title="Voluntary Teacher"
+                    sub_title="Youth Programming Center Munich"
+                    icon="jpcm.png"
+                    duration="February 2022 - May 2022"
+                    >
+                        <Point text="Holding programming courses for children aged 10-18 with different experience in programming."/>
+                        <Point text="Having the children experience working as a team by organizing them as teams and assigning tasks to the members with the best compatability."/>
+                        <Point text="Providing assistance and guidance wherever needed for a smooth and efficient work environment."/>
+                    </WorkCard>
+                    <WorkCard
                         title="Ar/Xr/Vr Developer"
                         sub_title="Dexperio"
                         icon="dexperio.png"
