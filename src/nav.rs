@@ -33,7 +33,7 @@ pub fn Navbar(props: &NavbarProps) -> Html {
                         <a href="#work">{"Work"}</a>
                     </li>
                     <li class="text-secondary hover:text-mauve text-[18px] font-medium cursor-pointer">
-                        <a href="#contact">{"Contact"}</a>
+                        <a href="#links">{"Links"}</a>
                     </li>
                 </ul>
                 {icon}
