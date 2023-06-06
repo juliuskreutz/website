@@ -85,7 +85,7 @@ pub fn Work() -> Html {
                     </WorkCard>
                     <WorkCard
                     title="STEM Teacher"
-                    sub_title="Royal Melbourne Institute of Technology"
+                    sub_title="Royal Melbourne Institute of Technology Training"
                     icon="rmit.png"
                     duration="June 2022 - November 2022"
                     >
