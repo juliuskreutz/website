@@ -57,7 +57,7 @@ pub fn Work() -> Html {
                         title="Android Developer"
                         sub_title="Freelancing"
                         icon="android.png"
-                        duration="Januar 2016 - Oktober 2018"
+                        duration="Januar 2016 - October 2018"
                     >
                         <Point text="Developing and maintaining android applications using Android Studio and other related technologies."/>
                         <Point text="Collaborating with other students to learn and improve working as a team."/>
@@ -67,7 +67,7 @@ pub fn Work() -> Html {
                     title="Tutor"
                     sub_title="Technical University of Munich"
                     icon="tum.png"
-                    duration="Oktober 2019 - March 2022"
+                    duration="October 2019 - March 2022"
                     >
                         <Point text="Holding lectures in the following subjects: Programming, Algorithm and Datastructures, Basic Maths and IT Security."/>
                         <Point text="Preparing exercises related to the current topic for the students."/>
@@ -97,7 +97,7 @@ pub fn Work() -> Html {
                         title="Ar/Xr/Vr Developer"
                         sub_title="Dexperio"
                         icon="dexperio.png"
-                        duration="Oktober 2018 - May 2023"
+                        duration="October 2018 - May 2023"
                     >
                         <Point text="Developing and maintaining applications using primarily Unity and other related technologies."/>
                         <Point text="Leveraging capabilities of specialized platforms or creating solutions cross platform."/>
