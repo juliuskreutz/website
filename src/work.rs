@@ -84,16 +84,6 @@ pub fn Work() -> Html {
                         <Point text="Providing assistance and guidance wherever needed for a smooth and efficient work environment."/>
                     </WorkCard>
                     <WorkCard
-                    title="STEM Teacher"
-                    sub_title="Royal Melbourne Institute of Technology Training"
-                    icon="rmit.png"
-                    duration="June 2022 - November 2022"
-                    >
-                        <Point text="Holding lectures in the following subjects: Software Engineering and Basic Maths."/>
-                        <Point text="Preparing exercises related to the current topic for the students."/>
-                        <Point text="Examining homework and final exams."/>
-                    </WorkCard>
-                    <WorkCard
                         title="Ar/Xr/Vr Developer"
                         sub_title="Dexperio"
                         icon="dexperio.png"
