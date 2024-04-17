@@ -1,14 +1,19 @@
 {
-    "redirects": [
-        {
-            "source": "/paypal",
-            "destination": "https://paypal.me/juliuskreutz",
-            "permanent": true
-        },
-        {
-            "source": "/bmc",
-            "destination": "https://bmc.link/juliuskreutz",
-            "permanent": true
-        }
-    ]
+  "redirects": [
+    {
+      "source": "/paypal",
+      "destination": "https://paypal.me/juliuskreutz",
+      "permanent": true
+    },
+    {
+      "source": "/paypal-au",
+      "destination": "https://paypal.me/juliuskreutzau",
+      "permanent": true
+    },
+    {
+      "source": "/bmc",
+      "destination": "https://bmc.link/juliuskreutz",
+      "permanent": true
+    }
+  ]
 }
